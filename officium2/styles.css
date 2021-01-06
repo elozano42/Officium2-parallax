@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300;400&display=swap');
+
+body {
+    margin: 0; 
+    padding: 0;
+}
+
+header {
+    background: url('writing.jpg'); 
+    height: 100vh;
+    width: 50%;
+    background-size: cover; 
+    background-position: center;
+
+}
+
+@media only screen and (min-width : 768px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+h1 {
+    font-family: 'Hepta Slab', serif;
+    color: #5e5c5c;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Hepta Slab', serif;
+    color: #5e5c5c;
+    text-align: center;
+}
+
+
+p {
+    font-family: 'Hepta Slab', serif;
+    color: #5e5c5c;
+}
+
+u {
+    font-family: 'Hepta Slab', serif;
+    color: #5e5c5c;
+}
+a {
+    font-family: 'Hepta Slab', serif;
+    color: #f2683a; 
+}
+
+a:hover {
+    color: #f2683a; 
+}
+
+.form-check-input:checked {
+    color:#f2683a; 
+    background-color: #f2683a;
+    border-color: #f2683a;
+}
+
+.actu-covid {
+    background-color: #f8f9fa;
+}
+
+.img2 {
+    background: url('officium3.png'); 
+    height: 100vh;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+@media only screen and (min-width : 768px) {
+    .box0 {
+        width: 30em;
+        height: 15em;
+    }
+}
+
+.box0 {
+    position: absolute;
+    top: 60%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 40rem;
+    height: 25rem;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 10px 5px 5px rgba(196, 190, 190, 0.473);
+
+}
+
+.box1 {
+    position: relative;
+    top: 50%;
+    left: 20%; 
+    width: 40rem;
+    height: 25rem;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #f8f9fa;
+
+}
+
+.formulaire {
+    background-color: #f8f9fa;
+}
+
+.btn {
+    color: #fff; 
+    background-color: #f2683a;
+}
+
+.btn:hover {
+    color: #fff; 
+    background-color: #f2683a;
+}
+
+#emailAddress2 {
+    background-color: #f2683a;
+    border: none; 
+}
+
+#emailAddress2::placeholder {
+    color: #fff; 
+}
+
+span {
+    color: #f2683a;
+}
+
+
+
+
+.form-row {
+    text-align: center;
+    width: 100%;
+}
+.form-control { 
+    width: 30%;
+}
+
+.form-group col-md-6 {
+    border: none; 
+}
+
+.Input {
+    border: none; 
+    width: 30%;
+    height: 70%;
+}
+.Input2 {
+    border: none; 
+    width: 80%;
+    height: 60%;
+}
+
+.InputArea {
+    border: transparent; 
+    height: 30%;
+    width: 30%;
+}
